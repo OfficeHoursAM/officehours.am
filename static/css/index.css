@@ -1,0 +1,86 @@
+body
+{
+    /* fonts */
+    font-family: "Avenir Next", sans-serif;
+    font-weight: lighter;
+    color: white;
+
+    /* backgrounds */
+    background-color: #232323;
+    margin: 0;
+}
+
+#album_art
+{
+    /* backgrounds */
+    background-image: url("../img/album_art.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    /* positioning */
+    position: absolute;
+    left: 23%;
+    right: 23%;
+    top: 5%;
+
+    /* sizes */
+    width: 50%;
+    height: 90%
+}
+
+.links
+{
+    /* positioning */
+    position: absolute;
+    bottom: 10%;
+    left: 28%;
+    right: 28%;
+}
+
+.link
+{
+    /* backgrounds */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* positioning */
+    position: absolute;
+
+    /* sizes */
+    width: 57px;
+    height: 51px;
+}
+
+.link:hover
+{
+    /* backgrounds */
+    opacity: 0.5;
+}
+
+
+#twitter.link
+{
+    /* backgrounds */
+    background-image: url("../img/twitter.png");
+
+    /* positioning */
+    left: 0%;
+}
+
+#itunes.link
+{
+    /* backgrounds */
+    background-image: url("../img/itunes.png");
+
+    /* positioning */
+    left: 33%;
+}
+
+#reddit.link
+{
+    /* backgrounds */
+    background-image: url("../img/reddit.png");
+
+    /* positioning */
+    left: 66%;
+}

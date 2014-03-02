@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Office Hours</title>
+        <link>{{ server }}</link>
+        <language>en-us</language>
+        <copyright>&#x2117; &amp; &#xA9; 2014 Patrick Perini &amp; Ryan Hestin</copyright>
+        <itunes:subtitle>We get each other talking to get you thinking.</itunes:subtitle>
+        <itunes:author>Patrick Perini &amp; Ryan Hestin</itunes:author>
+        <itunes:summary>We get each other talking to get you thinking. New guests, topics, and conversations every month.</itunes:summary>
+        <description>We get each other talking to get you thinking. New guests, topics, and conversations every month.</description>
+        <itunes:owner>
+            <itunes:name>Patrick Perini</itunes:name>
+            <itunes:email>feedback@officehours.am</itunes:email>
+        </itunes:owner>
+        <itunes:image href="{{ server }}/static/img/cover.jpg" />
+            <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Philosophy"/>
+        </itunes:category>
+        <itunes:category text="Society &amp; Culture"/>
+        {% for entry in entries %}
+        <item>
+            <title>Episode {{ list.loop0 }}: {{ entry.title }}</title>
+            <itunes:author>Patrick Perini &amp; Ryan Hestin</itunes:author>
+            <itunes:subtitle>with {{ entry.guest.name }}</itunes:subtitle>
+            <itunes:summary>{{ entry.description }}</itunes:summary>
+            <itunes:image href="{{ server }}/static/img/cover.jpg" />
+            <enclosure url="{{ server }}podcasts/{{ entry.filename }}" length="{{ entry.length }}" type="audio/x-m4a" />
+            <pubDate>{{ entry.pubdate }}</pubDate>
+            <itunes:duration>{{ entry.duration }}</itunes:duration>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
