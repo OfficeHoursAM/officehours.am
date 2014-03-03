@@ -11,6 +11,8 @@ files = {}
 # functions
 @async
 def addEpisode(filename):
+    return # turned off for now
+
     episodeReseponse = requests.get(episodes.fileURLFormat % (filename))
     files.update({episodeReseponse.url: episodeReseponse.content})
 
@@ -28,6 +30,8 @@ def rss():
 
 @app.route('/podcasts/<filename>')
 def episode(filename):
+    return "" # turned off for now
+
     if (filename not in episodes.filenames()):
         flask.abort(404)
 
