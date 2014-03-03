@@ -5,6 +5,7 @@
         <link>http://{{ server }}</link>
         <language>en-us</language>
         <copyright>&#x2117; &amp; &#xA9; 2014 Patrick Perini &amp; Ryan Hestin</copyright>
+        <itunes:explicit>yes</itunes:explicit>
         <itunes:subtitle>We get each other talking to get you thinking.</itunes:subtitle>
         <itunes:author>Patrick Perini &amp; Ryan Hestin</itunes:author>
         <itunes:summary>We get each other talking to get you thinking. New guests, topics, and conversations every month.</itunes:summary>
@@ -25,6 +26,7 @@
             <itunes:subtitle>with {{ entry.guest.name }} ({{ entry.guest.href }})</itunes:subtitle>
             <itunes:summary>{{ entry.description }}</itunes:summary>
             <itunes:image href="http://{{ server }}/static/img/itunes_cover.png" />
+            <itunes:explicit>yes</itunes:explicit>
             <enclosure url="http://{{ server }}/podcasts/{{ entry.filename }}" length="{{ entry.length }}" type="audio/mpeg3" />
             <pubDate>{{ entry.pubdate }}</pubDate>
             <itunes:duration>{{ entry.duration }}</itunes:duration>
