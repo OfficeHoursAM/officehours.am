@@ -16,6 +16,9 @@ def index():
 def rss():
     return flask.render_template("rss.xml", server = flask.request.host, entries = episodes.entries)
 
+@app.route('/subscribe')
+    return flask.redirect("pcast://%s/rss.xml" % flask.request.host, code = 302)
+
 @app.route('/podcasts/<filename>')
 def episode(filename):
     if (filename not in episodes.filenames()):
