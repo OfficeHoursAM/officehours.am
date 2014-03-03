@@ -13,7 +13,7 @@
             <itunes:name>Patrick Perini</itunes:name>
             <itunes:email>feedback@officehours.am</itunes:email>
         </itunes:owner>
-        <itunes:image href="http://{{ server }}/static/img/album_art.jpg" />
+        <itunes:image href="http://{{ server }}/static/img/itunes_cover.png" />
             <itunes:category text="Society &amp; Culture">
             <itunes:category text="Philosophy"/>
         </itunes:category>
@@ -24,7 +24,7 @@
             <itunes:author>Patrick Perini &amp; Ryan Hestin</itunes:author>
             <itunes:subtitle>with {{ entry.guest.name }} ({{ entry.guest.href }})</itunes:subtitle>
             <itunes:summary>{{ entry.description }}</itunes:summary>
-            <itunes:image href="http://{{ server }}/static/img/album_art.png" />
+            <itunes:image href="http://{{ server }}/static/img/itunes_cover.png" />
             <enclosure url="http://{{ server }}/podcasts/ep{{ loop.index0 }}.m4a" length="{{ entry.length }}" type="audio/x-m4a" />
             <pubDate>{{ entry.pubdate }}</pubDate>
             <itunes:duration>{{ entry.duration }}</itunes:duration>

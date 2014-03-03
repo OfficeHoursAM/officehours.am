@@ -15,7 +15,7 @@ def addEpisode(filename):
     files.update({episodeReseponse.url: episodeReseponse.content})
 
     if len(files) == len(episodes.filenames()):
-        print "Done!"
+        print "Done pulling podcasts."
 
 # routes
 @app.route('/')
