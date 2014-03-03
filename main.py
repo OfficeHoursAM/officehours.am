@@ -43,3 +43,5 @@ if __name__ == "__main__":
 
     for filename in episodes.filenames():
         addEpisode(filename)
+
+print __name__
