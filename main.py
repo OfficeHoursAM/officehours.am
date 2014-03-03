@@ -22,7 +22,7 @@ def addEpisode(filename):
 def index():
     return flask.render_template("index.html")
 
-@app.route('/setup')
+@app.route('/setup', methods = ["PUT"])
 def setup():
     for filename in episodes.filenames():
         addEpisode(filename)
