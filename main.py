@@ -18,7 +18,7 @@ def rss():
 
 @app.route('/subscribe')
 def subscribe():
-    return flask.redirect("pcast://%s/rss.xml" % flask.request.host, code = 302)
+    return flask.redirect("pcast://%s/rss.xml" % (flask.request.host), code = 302)
 
 @app.route('/podcasts/<filename>')
 def episode(filename):
