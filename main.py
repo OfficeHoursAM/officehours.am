@@ -10,7 +10,7 @@ app = flask.Flask(__name__)
 # routes
 @app.route('/')
 def index():
-    return flask.render_template("index.html")
+    return flask.render_template("index.html", server = flask.request.host)
 
 @app.route('/rss.xml')
 def rss():
