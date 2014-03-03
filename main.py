@@ -17,17 +17,16 @@ def addEpisode(filename):
     if len(files) == len(episodes.filenames()):
         print "Done!"
 
-# routes
-@app.route('/')
-def index():
-    return flask.render_template("index.html")
-
-@app.route('/setup', methods = ["PUT"])
 def setup():
     for filename in episodes.filenames():
         addEpisode(filename)
 
     return ""
+
+# routes
+@app.route('/')
+def index():
+    return flask.render_template("index.html")
 
 @app.route('/rss.xml')
 def rss():
