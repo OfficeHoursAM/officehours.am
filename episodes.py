@@ -16,4 +16,5 @@ entries = [
 def filenames():
     return ["ep%d.m4a" % entryIndex for entryIndex in range(len(entries))]
 
-fileURLFormat = "https://s3.amazonaws.com/officehours.am/%s"
+# fileURLFormat = "https://s3.amazonaws.com/officehours.am/%s"
+fileURLFormat = "https://dl.dropboxusercontent.com/u/2338382/distro/%s"

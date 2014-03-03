@@ -17,12 +17,6 @@ def addEpisode(filename):
     if len(files) == len(episodes.filenames()):
         print "Done!"
 
-def setup():
-    for filename in episodes.filenames():
-        addEpisode(filename)
-
-    return ""
-
 # routes
 @app.route('/')
 def index():
@@ -46,3 +40,6 @@ def episode(filename):
 # main
 if __name__ == "__main__":
     app.run(debug = True)
+
+    for filename in episodes.filenames():
+        addEpisode(filename)
