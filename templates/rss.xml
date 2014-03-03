@@ -26,7 +26,7 @@
             <itunes:summary>{{ entry.description }}</itunes:summary>
             <itunes:image href="http://{{ server }}/static/img/itunes_cover.png" />
             <!--<enclosure url="http://{{ server }}/podcasts/ep{{ loop.index0 }}.m4a" length="{{ entry.length }}" type="audio/x-m4a" />-->
-            <enclosure url="https://dl.dropboxusercontent.com/u/2338382/distro/ep{{ loop.index0 }}.m4a" length="{{ entry.length }}" type="audio/x-m4a" />
+            <enclosure url="https://s3.amazonaws.com/officehours.am/ep{{ loop.index0 }}.m4a" length="{{ entry.length }}" type="audio/x-m4a" />
             <pubDate>{{ entry.pubdate }}</pubDate>
             <itunes:duration>{{ entry.duration }}</itunes:duration>
         </item>
