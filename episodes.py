@@ -5,6 +5,8 @@ entries = [
         "length": 97472596,
         "duration": "48:26",
         "pubdate": "Mon, 3 Mar 2014 10:00:00 -0500",
+        "filename": "ep0.m4a",
+        "href": "http://bit.ly/1dh9jDo",
         "guest":
         {
             "name": "Alec Davis",
@@ -14,7 +16,4 @@ entries = [
 ]
 
 def filenames():
-    return ["ep%d.m4a" % entryIndex for entryIndex in range(len(entries))]
-
-# fileURLFormat = "https://s3.amazonaws.com/officehours.am/%s"
-fileURLFormat = "https://dl.dropboxusercontent.com/u/2338382/distro/%s"
+    return [entry["filename"] for entry in entries]

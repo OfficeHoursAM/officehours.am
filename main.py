@@ -6,18 +6,6 @@ from async import async
 
 # globals
 app = flask.Flask(__name__)
-files = {}
-
-# functions
-@async
-def addEpisode(filename):
-    return # turned off for now
-
-    episodeReseponse = requests.get(episodes.fileURLFormat % (filename))
-    files.update({episodeReseponse.url: episodeReseponse.content})
-
-    if len(files) == len(episodes.filenames()):
-        print "Done pulling podcasts."
 
 # routes
 @app.route('/')
@@ -30,23 +18,18 @@ def rss():
 
 @app.route('/podcasts/<filename>')
 def episode(filename):
-    return "" # turned off for now
-
     if (filename not in episodes.filenames()):
         flask.abort(404)
 
-    episodeURL = episodes.fileURLFormat % (filename)
-    if episodeURL not in files:
-        flask.abort(400)
+    for entry in episodes.entries:
+        if entry["filename"] == filename:
+            episode = entry
+            break
+    else:
+        return flask.abort(404)
 
-    return flask.Response(files[episodeURL], mimetype = "audio/x-m4a")
+    return flask.redirect(episode["href"], code = 302)
 
 # main
 if __name__ == "__main__":
     app.run(debug = True)
-    for filename in episodes.filenames():
-        addEpisode(filename)
-
-if __name__ == "main":
-    for filename in episodes.filenames():
-        addEpisode(filename)
