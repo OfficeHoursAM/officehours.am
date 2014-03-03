@@ -40,8 +40,9 @@ def episode(filename):
 # main
 if __name__ == "__main__":
     app.run(debug = True)
-
     for filename in episodes.filenames():
         addEpisode(filename)
 
-print __name__
+if __name__ == "main":
+    for filename in episodes.filenames():
+        addEpisode(filename)
