@@ -73,7 +73,7 @@ body
     background-image: url("../img/itunes.png");
 
     /* positioning */
-    left: 33%;
+    left: 25%;
 }
 
 #reddit.link
@@ -82,5 +82,14 @@ body
     background-image: url("../img/reddit.png");
 
     /* positioning */
-    left: 66%;
+    left: 50%;
+}
+
+#rss.link
+{
+    /* backgrounds */
+    background-image: url("../img/rss.png");
+
+    /* positioning */
+    left: 75%;
 }
