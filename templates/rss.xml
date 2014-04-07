@@ -27,7 +27,7 @@
             <itunes:summary>{{ entry.description }}</itunes:summary>
             <itunes:image href="http://{{ server }}/static/img/itunes_cover.png" />
             <itunes:explicit>yes</itunes:explicit>
-            <enclosure url="http://{{ server }}/podcasts/{{ entry.filename }}" length="{{ entry.length }}" type="audio/mpeg3" />
+            <enclosure url="http://{{ server }}/podcasts/{{ entry.filename }}" type="audio/mpeg3" />
             <pubDate>{{ entry.pubdate }}</pubDate>
             <itunes:duration>{{ entry.duration }}</itunes:duration>
         </item>
