@@ -10,86 +10,72 @@ body
     margin: 0;
 }
 
+a
+{
+    /* fonts */
+    color: white;
+    font-weight: normal;
+}
+
+a:hover
+{
+    /* fonts */
+    color: white;
+}
+
+.jumbotron
+{
+    /* backgrounds */
+    background: none;
+
+}
+
 #album_art
 {
-    /* backgrounds */
-    background-image: url("../img/album_art.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    /* sizing */
+    width: 200px;
+    height: 200px;
 
     /* positioning */
     position: absolute;
-    left: 23%;
-    right: 23%;
-    top: 5%;
-
-    /* sizes */
-    width: 50%;
-    height: 90%
+    right: 55px;
+    top: 30px;
 }
 
-.links
+@media (max-width: 768px) {
+    #album_art
+    {
+        display: none;
+    }
+}
+
+.social-link img
+{
+    /* sizing */
+    width: 25px;
+}
+
+#episodes
 {
     /* positioning */
-    position: absolute;
-    bottom: 10%;
-    left: 28%;
-    right: 28%;
+    margin: 0px;
+    margin-top: -55px;
 }
 
-.link
+.episode:nth-child(even)
 {
     /* backgrounds */
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #1F9FFD;
 
     /* positioning */
-    position: absolute;
-
-    /* sizes */
-    width: 57px;
-    height: 51px;
+    padding: 25px;
 }
 
-.link:hover
+.episode:nth-child(odd)
 {
     /* backgrounds */
-    opacity: 0.5;
-}
-
-
-#twitter.link
-{
-    /* backgrounds */
-    background-image: url("../img/twitter.png");
+    background-color: #FF6862;
 
     /* positioning */
-    left: 0%;
-}
-
-#itunes.link
-{
-    /* backgrounds */
-    background-image: url("../img/itunes.png");
-
-    /* positioning */
-    left: 25%;
-}
-
-#reddit.link
-{
-    /* backgrounds */
-    background-image: url("../img/reddit.png");
-
-    /* positioning */
-    left: 50%;
-}
-
-#rss.link
-{
-    /* backgrounds */
-    background-image: url("../img/rss.png");
-
-    /* positioning */
-    left: 75%;
+    padding: 25px;
 }

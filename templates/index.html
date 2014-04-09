@@ -2,18 +2,81 @@
     <head>
         <title>Office Hours</title>
 
+        <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>`
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
         <link rel="stylesheet" type="text/css" href="static/css/index.css"/>
         <link rel="icon" href="static/img/favicon.png" type="image/png"/>
     </head>
     <body>
-        <div class="content">
-            <div id="album_art"/>
-            <div class="links">
-                <a href="http://twitter.com/OfficeHoursAM" target="_blank"><span class="link" id="twitter"/></a>
-                <a href="https://itunes.apple.com/us/podcast/office-hours/id833661131" target="_blank"><span class="link" id="itunes"/></a>
-                <a href="http://reddit.com/r/OfficeHoursAM" target="_blank"><span class="link" id="reddit"/></a>
-                <a href="subscribe" target="_blank"><span class="link" id="rss"/></a>
+        <div class="jumbotron" id="cover">
+            <div class="container">
+                <h1>Office Hours</h1>
+                <p>with <a href="">Patrick Perini</a> and <a href="">Ryan Hestin</a></p>
+
+                <ul class="list-inline">
+                    <li class="social-link">
+                        <a href="http://twitter.com/OfficeHoursAM" target="_blank"><img src="static/img/twitter.png"/></a>
+                    </li>
+                    <li class="social-link">
+                        <a href="https://itunes.apple.com/us/podcast/office-hours/id833661131" target="_blank"><img src="static/img/itunes.png"/></a>
+                    </li>
+                    <li class="social-link">
+                        <a href="http://reddit.com/r/OfficeHoursAM" target="_blank"><img src="static/img/reddit.png"/></a>
+                    </li>
+                    <li class="social-link">
+                        <a href="subscribe" target="_blank"><img src="static/img/rss.png"/></a>
+                    </li>
+                </ul>
+
+                <img src="static/img/album_art.svg" id="album_art"></img>
             </div>
         </div>
+
+        <div class="panel-group" id="episodes">
+            {% for entry in entries -%}
+            <div class="row episode panel">
+                <div class="row panel-heading">
+                    <div class="col-md-10 col-sm-4 col-xs-4 panel-title">
+                        <a data-toggle="collapse" data-parent="#episodes" href="#ep{{ entries|length - loop.index }}">
+                            <b>Episode {{ entries|length - loop.index }}: {{ entry.title }}</b>
+                        </a>
+                    </div>
+                    <div class="col-md-2 text-right">
+                        {{ entry.shortdate }}
+                    </div>
+                </div>
+                <div class="panel-collapse collapse {{ 'in' if loop.index0 == 0}}" id="ep{{ entries|length - loop.index }}">
+                    <div class="row panel-body">
+                        <div class="col-md-12">
+                            <a href="{{ entry.href }}">
+                                <i>Listen (mp3)</i>
+                            </a>
+                            <br/><br/>
+                            <p>{{ entry.htmldescription|safe }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/><br/>
+            {% endfor %}
+        </div>
+        <footer class="text-center">
+            &copy; Patrick Perini and Ryan Hestin. Recording by Patrick Kelley.
+        </footer>
     </body>
 </html>
+
+
+<!--
+<div class="content">
+    <div id="album_art"/>
+    <div class="links">
+        <a href="http://twitter.com/OfficeHoursAM" target="_blank"><span class="link" id="twitter"/></a>
+        <a href="https://itunes.apple.com/us/podcast/office-hours/id833661131" target="_blank"><span class="link" id="itunes"/></a>
+        <a href="http://reddit.com/r/OfficeHoursAM" target="_blank"><span class="link" id="reddit"/></a>
+        <a href="subscribe" target="_blank"><span class="link" id="rss"/></a>
+    </div>
+</div>
+-->
