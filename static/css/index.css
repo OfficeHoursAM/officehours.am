@@ -23,6 +23,12 @@ a:hover
     color: white;
 }
 
+audio
+{
+    /* sizing */
+    width: 100%;
+}
+
 .jumbotron
 {
     /* backgrounds */
