@@ -2,11 +2,14 @@
     <head>
         <title>Office Hours</title>
 
-        <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>`
         <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="static/js/audio-flat.js"></script>
 
+        <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="static/css/index.css"/>
+        <link rel="stylesheet" type="text/css" href="static/css/audio-flat.css"/>
+
         <link rel="icon" href="static/img/favicon.png" type="image/png"/>
 
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
@@ -55,10 +58,11 @@
                         <div class="col-md-12">
                             <p>{{ entry.htmldescription|safe }}</p>
                             <br/><br/>
-                            <audio controls>
-                                <source src="{{ entry.href }}" type="audio/mpeg">
-                                <a href="{{ entry.href }}"><i>Listen</i></a>
-                            </audio>
+                            <div class="audio-flat" src="{{ entry.href }}">
+                                <a class="play" id="play-pause"></a>
+                                <input type="range" id="seek" value="0"/>
+                                <span id="duration">00:00</span>
+                            </div>
                         </div>
                     </div>
                 </div>
