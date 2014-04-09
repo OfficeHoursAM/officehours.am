@@ -33,26 +33,32 @@ audio
 {
     /* backgrounds */
     background: none;
-
+    overflow: hidden;
 }
 
 #album_art
 {
     /* sizing */
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 400px;
 
     /* positioning */
     position: absolute;
-    right: 55px;
-    top: 30px;
-}
+    left: 0px;
+    top: -125px;
+    z-index: -1000;
 
-@media (max-width: 768px) {
-    #album_art
-    {
-        display: none;
-    }
+    /* background */
+    background-image: url("../img/album_art.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    opacity: 0.2;
 }
 
 .social-link img
