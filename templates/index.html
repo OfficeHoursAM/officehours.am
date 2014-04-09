@@ -50,11 +50,12 @@
                 <div class="panel-collapse collapse {{ 'in' if loop.index0 == 0}}" id="ep{{ entries|length - loop.index }}">
                     <div class="row panel-body">
                         <div class="col-md-12">
-                            <a href="{{ entry.href }}">
-                                <i>Listen (mp3)</i>
-                            </a>
-                            <br/><br/>
                             <p>{{ entry.htmldescription|safe }}</p>
+                            <br/><br/>
+                            <audio controls>
+                                <source src="{{ entry.href }}" type="audio/mpeg">
+                                <a href="{{ entry.href }}"><i>Listen</i></a>
+                            </audio>
                         </div>
                     </div>
                 </div>
