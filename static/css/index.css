@@ -23,10 +23,15 @@ a:hover
     color: white;
 }
 
-audio
+
+.audio-flat #seek
 {
     /* sizing */
-    width: 100%;
+    width: 94% !important;
+
+    /* positioning */
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .jumbotron
