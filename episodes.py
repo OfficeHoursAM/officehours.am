@@ -1,5 +1,20 @@
 entries = [
     {
+        "title": "The Sex of Selfies",
+        "description": "Patrick and Ryan sit down with Lee Ngo and talk about the serious business of selfies, Lee's #SelfieEveryDamnDay, Senator Al Franken, the weaponization of sex, personal branding vs. facade construction, and the Ellen Selfie (http://bit.ly/1fFCEuV).\n\nThis month's articles:\n\nSelfies and the Search for Recognition See for Your Selfie - Fausing (http://bit.ly/1fGKSlW)\nThis Young Artist Turns Online Bullying Towards Women into Empowering Art - PolicyMic (http://bit.ly/1neKTOd)\nWhat do your selfies say about you? - Al Jazeera America (http://alj.am/1lMjwLB)",
+        "htmldescription": "Patrick and Ryan sit down with Lee Ngo and talk about the serious business of selfies, Lee's #SelfieEveryDamnDay, Senator Al Franken, the weaponization of sex, personal branding vs. facade construction, and the <a href=\"http://bit.ly/1fFCEuV\">Ellen Selfie</a>.<br/><br/>This month's articles:<br/><br/><a href=\"http://bit.ly/1fGKSlW\">Selfies and the Search for Recognition See for Your Selfie - Fausing</a><br/><a href=\"http://bit.ly/1neKTOd\">This Young Artist Turns Online Bullying Towards Women into Empowering Art - PolicyMic</a><br/><a href=\"http://alj.am/1lMjwLB\">What do your selfies say about you? - Al Jazeera America</a>",
+        "duration": "00:00",
+        "pubdate": "Mon, 5 May 2014 10:00:00 -0500",
+        "shortdate": "05-05-14",
+        "filename": "ep2.mp3",
+        "href": "",
+        "guest":
+        {
+            "name": "Lee Ngo",
+            "href": "http://instagram.com/leepngo"
+        }
+    },
+    {
         "title": "Measuring the Value of Entrepreneurship",
         "description": "Office Hours' first official episode, wherein Patrick and Ryan chat with James Lomuscio about how to define entrepreneurship, small businesses in New York vs. Pittsburgh, \"work vs. labor,\" innovation, the nature of ownership, and Pope Leo XIII's \"Rerum Novarum\".\n\nThis month's articles:\n\nRegional Insights: Pittsburgh region is one of the least entrepreneurial places - Post Gazette (http://bit.ly/1jmVg0H)\nDefining and Measuring Entrepreneurship for Region Research: A New Apporach - Dissertation, Sarah A. Low (http://bit.ly/OphvYu) Chapters 2 and 3",
         "htmldescription": "Office Hours' first official episode, wherein Patrick and Ryan chat with James Lomuscio about how to define entrepreneurship, small businesses in New York vs. Pittsburgh, \"work vs. labor,\" innovation, the nature of ownership, and Pope Leo XIII's \"Rerum Novarum\".<br/><br/>This month's articles:<br/><br/><a href=\"http://bit.ly/1jmVg0H\">Regional Insights: Pittsburgh region is one of the least entrepreneurial places - Post Gazette</a><br/><a href=\"http://bit.ly/OphvYu\">Defining and Measuring Entrepreneurship for Region Research: A New Apporach - Dissertation, Sarah A. Low</a> Chapters 2 and 3",
