@@ -2,7 +2,6 @@
 import flask
 import episodes
 import requests
-from async import async
 
 # globals
 app = flask.Flask(__name__)
