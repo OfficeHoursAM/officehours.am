@@ -3,11 +3,11 @@ entries = [
         "title": "The Sex of Selfies",
         "description": "Patrick and Ryan sit down with Lee Ngo and talk about the serious business of selfies, Lee's #SelfieEveryDamnDay, Senator Al Franken, the weaponization of sex, personal branding vs. facade construction, and the Ellen Selfie (http://bit.ly/1fFCEuV).\n\nThis month's articles:\n\nSelfies and the Search for Recognition See for Your Selfie - Fausing (http://bit.ly/1fGKSlW)\nThis Young Artist Turns Online Bullying Towards Women into Empowering Art - PolicyMic (http://bit.ly/1neKTOd)\nWhat do your selfies say about you? - Al Jazeera America (http://alj.am/1lMjwLB)",
         "htmldescription": "Patrick and Ryan sit down with Lee Ngo and talk about the serious business of selfies, Lee's #SelfieEveryDamnDay, Senator Al Franken, the weaponization of sex, personal branding vs. facade construction, and the <a href=\"http://bit.ly/1fFCEuV\">Ellen Selfie</a>.<br/><br/>This month's articles:<br/><br/><a href=\"http://bit.ly/1fGKSlW\">Selfies and the Search for Recognition See for Your Selfie - Fausing</a><br/><a href=\"http://bit.ly/1neKTOd\">This Young Artist Turns Online Bullying Towards Women into Empowering Art - PolicyMic</a><br/><a href=\"http://alj.am/1lMjwLB\">What do your selfies say about you? - Al Jazeera America</a>",
-        "duration": "00:00",
-        "pubdate": "Mon, 5 May 2014 10:00:00 -0500",
+        "duration": "52:44",
+        "pubdate": "Mon, 5 May 2014 12:40:00 -0500",
         "shortdate": "05-05-14",
         "filename": "ep2.mp3",
-        "href": "",
+        "href": "http://bit.ly/1nZ3JLC",
         "guest":
         {
             "name": "Lee Ngo",
