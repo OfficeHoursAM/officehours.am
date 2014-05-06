@@ -5,6 +5,7 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
         <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="static/sub/audio-flat/audio-flat.js"></script>
+        <script type="text/javascript" src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
 
         <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="static/css/index.css"/>
@@ -39,7 +40,12 @@
                     </li>
                 </ul>
 
-                <div id="album_art"></div>
+                <div id="album_art" class="cycle-slideshow" data-cycle-delay="750" data-cycle-speed="750">
+                    <img src="static/img/backgrounds/album_art.svg"/>
+                    <img src="https://pbs.twimg.com/media/Bm5wnEoIEAA_lf6.jpg"/>
+                    <img src="https://pbs.twimg.com/media/Bm5KjLIIIAAApwv.jpg"/>
+                    <img src="https://pbs.twimg.com/media/BhvylWOIYAAZeVc.jpg"/>
+                </div>
             </div>
         </div>
 
@@ -61,7 +67,7 @@
                         <div class="col-md-12">
                             <p>{{ entry.htmldescription|safe }}</p>
                             <br/><br/>
-                            <audio class="flat" src="{{ entry.href }}"></audio>
+                            <!--<audio class="flat" src="{{ entry.href }}"></audio>-->
                         </div>
                     </div>
                 </div>

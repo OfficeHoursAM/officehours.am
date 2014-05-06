@@ -53,17 +53,23 @@ a:hover
     top: -125px;
     z-index: -1000;
 
-    /* background */
-    background-image: url("../img/album_art.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    /* filter */
     filter: blur(2px);
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     opacity: 0.2;
+    
+    /* background */
+    overflow: hidden;
+}
+
+#album_art img
+{
+    /* sizing */
+    width: 100%;
+    min-width: 500px;
 }
 
 .social-link img
