@@ -54,12 +54,12 @@ a:hover
     z-index: -1000;
 
     /* filter */
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    opacity: 0.2;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    opacity: 0.15;
     
     /* background */
     overflow: hidden;
