@@ -59,7 +59,7 @@ a:hover
     -moz-filter: blur(3px);
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
-    opacity: 0.15;
+    opacity: 0.25;
     
     /* background */
     overflow: hidden;
