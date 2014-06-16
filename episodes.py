@@ -1,8 +1,8 @@
 entries = [
     {
         "title": "Improv & Entrepreneurship",
-        "description": "Patrick and Ryan catch up with Kit Mueller and chat about improv, The Second City, \"Fuck your fear\", Groupon's funny culture, Dick Costolo, and those hopefully rare moments when you let down your team.\n\nThis month's articles:\n\nImprov comedy and business: Getting to \"yes, and.\" - Slate (http://slate.me/1i0UQzY)\nYour Brain on Improv: Hacking Creativity - Bulletproof (http://bit.ly/1q41Yvv)",
-        "htmldescription": "Patrick and Ryan catch up with Kit Mueller and chat about improv, The Second City, \"Fuck your fear\", Groupon's funny culture, Dick Costolo, and those hopefully rare moments when you let down your team.<br/><br/>This month's articles:<br/><br/><a href=\"http://slate.me/1i0UQzY\">Improv comedy and business: Getting to \"yes, and.\" - Slate</a><br/><a href=\"http://bit.ly/1q41Yvv\">Your Brain on Improv: Hacking Creativity - Bulletproof</a>",
+        "description": "Patrick and Ryan catch up with Kit Mueller and chat about improv, The Second City, \"Fuck your fear\" (http://bit.ly/1p8r4Kq), Groupon's funny culture, Dick Costolo, and those hopefully rare moments when you let down your team.\n\nThis month's articles:\n\nImprov comedy and business: Getting to \"yes, and.\" - Slate (http://slate.me/1i0UQzY)\nYour Brain on Improv: Hacking Creativity - Bulletproof (http://bit.ly/1q41Yvv)",
+        "htmldescription": "Patrick and Ryan catch up with Kit Mueller and chat about improv, The Second City, <a href=\"http://bit.ly/1p8r4Kq\">\"Fuck your fear\"</a>, Groupon's funny culture, Dick Costolo, and those hopefully rare moments when you let down your team.<br/><br/>This month's articles:<br/><br/><a href=\"http://slate.me/1i0UQzY\">Improv comedy and business: Getting to \"yes, and.\" - Slate</a><br/><a href=\"http://bit.ly/1q41Yvv\">Your Brain on Improv: Hacking Creativity - Bulletproof</a>",
         "duration": "48:49",
         "pubdate": "Mon, 16 Jun 2014 12:00:00 -0500",
         "shortdate": "06-15-14",
