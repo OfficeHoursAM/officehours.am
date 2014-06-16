@@ -1,5 +1,20 @@
 entries = [
     {
+        "title": "Improv & Entrepreneurship",
+        "description": "Patrick and Ryan catch up with Kit Mueller and chat about improv, The Second City, \"Fuck your fear\", Groupon's funny culture, Dick Costolo, and those hopefully rare moments when you let down your team.\n\nThis month's articles:\n\nImprov comedy and business: Getting to \"yes, and.\" - Slate (http://slate.me/1i0UQzY)\nYour Brain on Improv: Hacking Creativity - Bulletproof (http://bit.ly/1q41Yvv)",
+        "htmldescription": "Patrick and Ryan catch up with Kit Mueller and chat about improv, The Second City, \"Fuck your fear\", Groupon's funny culture, Dick Costolo, and those hopefully rare moments when you let down your team.<br/><br/>This month's articles:<br/><br/><a href=\"http://slate.me/1i0UQzY\">Improv comedy and business: Getting to \"yes, and.\" - Slate</a><br/><a href=\"http://bit.ly/1q41Yvv\">Your Brain on Improv: Hacking Creativity - Bulletproof</a>",
+        "duration": "48:49",
+        "pubdate": "Mon, 16 Jun 2014 12:00:00 -0500",
+        "shortdate": "06-15-14",
+        "filename": "ep3.mp3",
+        "href": "http://bit.ly/1kXTsxw",
+        "guest":
+        {
+            "name": "Kit Mueller",
+            "href": "https://twitter.com/kitmueller"
+        }
+    },
+    {
         "title": "The Sex of Selfies",
         "description": "Patrick and Ryan sit down with Lee Ngo and talk about the serious business of selfies, Lee's #SelfieEveryDamnDay, Senator Al Franken, the weaponization of sex, personal branding vs. facade construction, and the Ellen Selfie (http://bit.ly/1fFCEuV).\n\nThis month's articles:\n\nSelfies and the Search for Recognition See for Your Selfie - Fausing (http://bit.ly/1fGKSlW)\nThis Young Artist Turns Online Bullying Towards Women into Empowering Art - PolicyMic (http://bit.ly/1neKTOd)\nWhat do your selfies say about you? - Al Jazeera America (http://alj.am/1lMjwLB)",
         "htmldescription": "Patrick and Ryan sit down with Lee Ngo and talk about the serious business of selfies, Lee's #SelfieEveryDamnDay, Senator Al Franken, the weaponization of sex, personal branding vs. facade construction, and the <a href=\"http://bit.ly/1fFCEuV\">Ellen Selfie</a>.<br/><br/>This month's articles:<br/><br/><a href=\"http://bit.ly/1fGKSlW\">Selfies and the Search for Recognition See for Your Selfie - Fausing</a><br/><a href=\"http://bit.ly/1neKTOd\">This Young Artist Turns Online Bullying Towards Women into Empowering Art - PolicyMic</a><br/><a href=\"http://alj.am/1lMjwLB\">What do your selfies say about you? - Al Jazeera America</a>",
